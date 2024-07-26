@@ -1,0 +1,366 @@
+[
+    {
+        "id": "_meta",
+        "name": "Pokemon",
+        "author": "Wei Hao",
+        "logo": "https:\/\/www.bloodstar.xyz\/p\/eerroorr\/Pokemoneerroorr\/_meta.png",
+        "almanac": "https:\/\/www.bloodstar.xyz\/p\/eerroorr\/Pokemoneerroorr\/almanac.html"
+    },
+    {
+        "id": "bulbasaur_pokemoneerroorr",
+        "otherNightReminder": "Once per game, at night, choose 2 pairs of Pok\u00e9mon to swap seats with the other pair. If any evil was chosen, they will swap seats and you evolved to Ivysaur immediately.",
+        "reminders": [
+            "Pair 1",
+            "Pair 2",
+            "Evolve"
+        ],
+        "name": "Bulbasaur",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose 2 pairs of Pok\u00e9mon to swap seats with the other pair. If any evil was chosen, they will swap seats and you evolved to Ivysaur immediately.",
+        "flavor": "Ability: Vine whip",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Bulbasaur.png?raw=true",
+        "otherNight": 2
+    },
+    {
+        "id": "charmander_pokemoneerroorr",
+        "otherNightReminder": "Once per game, at night, choose 2 alive Pok\u00e9mon. If any evil was chosen, both of their votes are burned. They have only 1 vote till end of game and you evolved into Charmeleon immediately.",
+        "reminders": [
+            "Votes = 1",
+            "Votes = 1",
+            "Evolve"
+        ],
+        "name": "Charmander",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose 2 alive Pok\u00e9mon. If any evil was chosen, both of their votes are burned. They have only 1 vote till end of game and you evolved into Charmeleon immediately.",
+        "flavor": "Ability: Ember",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Charmander.png?raw=true",
+        "otherNight": 3
+    },
+    {
+        "id": "squirtle_pokemoneerroorr",
+        "otherNightReminder": "Once per game, at night, choose 2 alive Pok\u00e9mon. They are healed from poison.  If a poisoned pokemon was chosen, you evolved to Wartortle immediately.",
+        "reminders": [
+            "Heal 1",
+            "Heal 1",
+            "Evolve"
+        ],
+        "name": "Squirtle",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose 2 alive Pok\u00e9mon. They are healed from poison.  If a poisoned Pok\u00e9mon was chosen, you evolved to Wartortle immediately.",
+        "flavor": "Ability: Healing water",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Squirtle.png?raw=true",
+        "otherNight": 4
+    },
+    {
+        "id": "pikachu_pokemoneerroorr",
+        "otherNightReminder": "On odd nights, Target a Pok\u00e9mon, if it is a poisoned Pok\u00e9mon, they become healthy. If target a minion, they lose their ability till dusk. If target a demon, fainting is arbitrary. ",
+        "reminders": [
+            "Ability Off",
+            "Shocked"
+        ],
+        "name": "Pikachu",
+        "team": "townsfolk",
+        "ability": "On odd nights, Target a Pok\u00e9mon, if it is a poisoned Pok\u00e9mon, they become healthy. If target a minion, they lose their ability till dusk. If target a demon, fainting is arbitrary. ",
+        "flavor": "Ability: Volt Tackle",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Pikachu.png?raw=true",
+        "otherNight": 5
+    },
+    {
+        "id": "jigglypuff_pokemoneerroorr",
+        "otherNightReminder": "Each night*, choose a pokemon. If a wild pokemon is chosen, all pokemon does not wake up tonight and you evolved into Wigglytuff immediately [+1 wild]",
+        "reminders": [
+            "Outsider chosen",
+            "Evolve"
+        ],
+        "name": "Jigglypuff",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a pokemon. If a wild pokemon is chosen, all pokemon does not wake up tonight and you evolved into Wigglytuff immediately [+1 wild]",
+        "flavor": "Ability: Sing",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Jigglypuff.png?raw=true",
+        "otherNight": 6
+    },
+    {
+        "id": "cloyster_pokemoneerroorr",
+        "reminders": [
+            "Protect Left"
+        ],
+        "remindersGlobal": [
+            "Protect Right"
+        ],
+        "name": "Cloyster",
+        "team": "townsfolk",
+        "ability": "f both your alive neighbours are good, they cant be fainted.",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Cloyster.png?raw=true",
+        "flavor": "Ability: Protect"
+    },
+    {
+        "id": "alohavulpix_pokemoneerroorr",
+        "firstNightReminder": "Each night, learn a character that chooses you tonight. If you are mad\u201d about being Vulpix\/Ninetales, you receive false information and another Pokemon will get frozen. When frozen Pok\u00e9mon leave their seats, they faint at dusk.If 2 different Pok\u00e9mon chooses you, you evolved into Ninetales.",
+        "otherNightReminder": "Each night, learn a character that chooses you tonight. If you are \u201cmad\u201d about being Vulpix\/Ninetales, you receive false information and another Pokemon will get frozen. When frozen Pok\u00e9mon leave their seats, they faint at dusk. If 2 different Pok\u00e9mon chooses you, you evolved into Ninetales.",
+        "reminders": [
+            "Target Vulpix",
+            "Frozen",
+            "Evolve"
+        ],
+        "name": "Aloha Vulpix",
+        "team": "townsfolk",
+        "ability": "Each night, learn a character that chooses you tonight. If you are \u201cmad\u201d about being Vulpix\/Ninetales, you receive false information and another Pokemon will get frozen. When frozen Pok\u00e9mon leave their seats, they faint at dusk. If 2 different Pok\u00e9mon chooses you, you evolved into Ninetales.",
+        "firstNight": 11,
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Vulpix.png?raw=true",
+        "otherNight": 7
+    },
+    {
+        "id": "oddish_pokemoneerroorr",
+        "firstNightReminder": "You start knowing how many steps between you and the nearest grass-type Pok\u00e9mon. You evolved into Gloom when they evolve or die. ",
+        "reminders": [
+            "Best friend",
+            "Evolve"
+        ],
+        "name": "Oddish",
+        "team": "townsfolk",
+        "ability": "You start knowing how many steps between you and the nearest grass-type Pok\u00e9mon. You evolved into Gloom when they evolve or die. ",
+        "flavor": "Ability: Night walking",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Oddish.png?raw=true",
+        "firstNight": 12
+    },
+    {
+        "id": "exeggcute_pokemoneerroorr",
+        "firstNightReminder": "You start knowing Chansey is clockwise or anti-clock wise nearer from you. If equidistant, this info is arbitrary. Once per game, if you guess Chansey correctly, you evolve to Exeggutor. [+1 Chansey]",
+        "reminders": [
+            "evolved"
+        ],
+        "setup": true,
+        "name": "Exeggcute",
+        "team": "townsfolk",
+        "ability": "You start knowing Chansey is clockwise or anti-clock wise nearer from you. If equidistant, this info is arbitrary. Once per game, if you guess Chansey correctly, you evolve to Exeggutor. [+1 Chansey]",
+        "flavor": "Ability: Chansey Ammo",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Eggecute.png?raw=true",
+        "firstNight": 13
+    },
+    {
+        "id": "dratini_pokemoneerroorr",
+        "reminders": [
+            "Evolve"
+        ],
+        "name": "Dratini",
+        "team": "townsfolk",
+        "ability": "Each day, visit the storyteller to guess 1 alive Pokemon who was affected by an evil Pok\u00e9mon's ability last night. If you guess correctly, you evolved into dragonair immediately.",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Dratini.png?raw=true"
+    },
+    {
+        "id": "voltorb_pokemoneerroorr",
+        "otherNightReminder": "If you are alive at 4th night, evolved into electrode immediately. ",
+        "reminders": [
+            "Evolve"
+        ],
+        "name": "Voltorb",
+        "team": "townsfolk",
+        "ability": "f you are in an enclosed space with exactly one other pokemon, both of you might faint. If you are alive at 4th night, evolved into electrode immediately. ",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Voltob.png?raw=true",
+        "otherNight": 8
+    },
+    {
+        "id": "abra_pokemoneerroorr",
+        "firstNightReminder": "Each night, choose 1 alive Pok\u00e9mon, you learn if they woke tonight due to their ability. If chosen didn\u2019t wake, you evolved to Kadabra immediately.",
+        "otherNightReminder": "Each night, choose 1 alive Pok\u00e9mon, you learn if they woke tonight due to their ability. If chosen didn\u2019t wake, you evolved to Kadabra immediately.",
+        "reminders": [
+            "Evolve"
+        ],
+        "name": "Abra",
+        "team": "townsfolk",
+        "ability": "Each night, choose 1 alive Pok\u00e9mon, you learn if they woke tonight due to their ability. If chosen didn\u2019t wake, you evolved to Kadabra immediately.",
+        "firstNight": 14,
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Abra.png?raw=true",
+        "otherNight": 9
+    },
+    {
+        "id": "chansey_pokemoneerroorr",
+        "otherNightReminder": "Once per game, at night, choose a fainted Pok\u00e9mon. If they are a good Pok\u00e9mon, they will be resurrected with vote tokens and abilities refreshed. You can use this ability again if Exeggcute found you.",
+        "reminders": [
+            "Resurrected",
+            "Ability x 2"
+        ],
+        "name": "Chansey",
+        "team": "townsfolk",
+        "ability": "Once per game, at night, choose a fainted Pok\u00e9mon. If they are a good Pok\u00e9mon, they will be resurrected with vote tokens and abilities refreshed. You can use this ability again if Exeggcute found you.",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Chansey.png?raw=true",
+        "otherNight": 10
+    },
+    {
+        "id": "mrmime_pokemoneerroorr",
+        "otherNightReminder": "Each night*, choose a neighboring Pok\u00e9mon. You and the chosen Pok\u00e9mon cannot be fainted from legendary. The chosen Pok\u00e9mon will be poisoned till dusk. You lose this ability permanently if you speak publicly.",
+        "reminders": [
+            "Protect",
+            "Protect"
+        ],
+        "name": "Mr Mime",
+        "team": "townsfolk",
+        "ability": "Each night*, choose a neighboring Pok\u00e9mon. You and the chosen Pok\u00e9mon cannot be fainted from legendary. The chosen Pok\u00e9mon will be poisoned till dusk. You lose this ability permanently if you speak publicly.",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Mr Mine.png?raw=true",
+        "otherNight": 11
+    },
+    {
+        "id": "snorlax_pokemoneerroorr",
+        "firstNightReminder": "Remain Sleeping",
+        "otherNightReminder": "Remain Sleeping",
+        "reminders": [
+            "Sleep",
+            "Sleep every good"
+        ],
+        "name": "Snorlax",
+        "team": "outsider",
+        "ability": "One of nearest good pokemon will not wake up at night. Once executed, all good pokemon doesn\u2019t wake tonight.",
+        "firstNight": 16,
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Snorlex.png?raw=true",
+        "otherNight": 13
+    },
+    {
+        "id": "psyduck_pokemoneerroorr",
+        "firstNightReminder": "Who is Psyduck?",
+        "otherNightReminder": "You do not know you are Psyduck. You think you are a trainer Pok\u00e9mon but you are not. You may privately guess if you are Psyduck. If correct, you evolved into Golduck immediately. Other Pok\u00e9mon who guess themselves as Psyduck may faint. ",
+        "reminders": [
+            "Psyduck"
+        ],
+        "setup": true,
+        "name": "Psyduck",
+        "team": "outsider",
+        "ability": "You do not know you are Psyduck. You think you are a trainer Pok\u00e9mon but you are not. You may privately guess if you are Psyduck. If correct, you evolved into Golduck immediately. Other Pok\u00e9mon who guess themselves as Psyduck may faint. ",
+        "firstNight": 15,
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Psyduck.png?raw=true",
+        "otherNight": 12
+    },
+    {
+        "id": "magikarp_pokemoneerroorr",
+        "firstNightReminder": "On your first night, choose a pokemon(not yourself): you become their alignment even if drunk or poisoned.  ",
+        "otherNightReminder": " If there 5 or less Pok\u00e9mon alive, You evolved into Gyarados immediately. ",
+        "reminders": [
+            "Evolved"
+        ],
+        "name": "Magikarp",
+        "team": "outsider",
+        "ability": "On your first night, choose a pokemon(not yourself): you become their alignment even if drunk or poisoned. If there 5 or less Pok\u00e9mon alive, You evolved into Gyarados immediately. ",
+        "firstNight": 17,
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Magikarp.png?raw=true",
+        "otherNight": 14
+    },
+    {
+        "id": "golem_pokemoneerroorr",
+        "otherNightReminder": "You cannot be moved and your vote token cannot be stolen or burned. You may only nominate once per game. When you do, if the nominee is not a legendary, they are fainted.",
+        "reminders": [
+            "Ability used"
+        ],
+        "name": "Golem",
+        "team": "outsider",
+        "ability": "You cannot be moved and your vote token cannot be stolen or burned. You may only nominate once per game. When you do, if the nominee is not a legendary, they are fainted.",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Golem.png?raw=true",
+        "otherNight": 15
+    },
+    {
+        "id": "ditto_pokemoneerroorr",
+        "firstNightReminder": "Each night, choose any unchosen non-legendary basic Pok\u00e9mon character from the script (not Ditto). You gain their ability till dusk. You will not evolved. [-1 Wild]",
+        "otherNightReminder": "Each night, choose any unchosen non-legendary basic Pok\u00e9mon character from the script (not Ditto). You gain their ability till dusk. You will not evolved. [-1 Wild]",
+        "setup": true,
+        "name": "Ditto",
+        "team": "minion",
+        "ability": "Each night, choose any unchosen non-legendary basic Pok\u00e9mon character from the script (not Ditto). You gain their ability till dusk. You will not evolved. [-1 Wild]",
+        "firstNight": 18,
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Ditto.png?raw=true",
+        "otherNight": 16
+    },
+    {
+        "id": "bellsprout_pokemoneerroorr",
+        "otherNightReminder": "Each night*, choose a Pok\u00e9mon. They do not wake tonight OR they are poisoned OR their vote counts as 0 tomorrow.",
+        "reminders": [
+            "Sleep",
+            "Poisoned",
+            "Vote 0"
+        ],
+        "name": "Bellsprout",
+        "team": "minion",
+        "ability": "Each night*, choose a Pok\u00e9mon. They do not wake tonight OR they are poisoned OR their vote counts as 0 tomorrow.",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Bellsprout.png?raw=true",
+        "otherNight": 17
+    },
+    {
+        "id": "gastly_pokemoneerroorr",
+        "otherNightReminder": "Once per game, during the night, choose 2 Pok\u00e9mon(not yourself). Their votes count as zero tomorrow. If either voted, evolve into Gengar immediately.",
+        "reminders": [
+            "Vote 0",
+            "Vote 0",
+            "Evolved"
+        ],
+        "name": "Gastly",
+        "team": "minion",
+        "ability": "Each night, choose a Pok\u00e9mon (not yourself). Their votes count as zero tomorrow. If they voted, evolve into Haunter immediately.",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Ghastly.png?raw=true",
+        "otherNight": 18
+    },
+    {
+        "id": "ekans_pokemoneerroorr",
+        "firstNightReminder": "Each night, choose a pokemon: they are poisoned till dusk. If they tried to used their ability while poisoned, you evolved into Arbok tonight night.",
+        "otherNightReminder": "Each night, choose a pokemon: they are poisoned till dusk. If they tried to used their ability while poisoned, you evolved into Arbok tonight night.",
+        "reminders": [
+            "Poison",
+            "Poison",
+            "Evolved"
+        ],
+        "name": "Ekans",
+        "team": "minion",
+        "ability": "Each night, choose a pokemon: they are poisoned till dusk. If they tried to used their ability while poisoned, you evolved into Arbok tonight night.",
+        "firstNight": 19,
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Ekans.png?raw=true",
+        "otherNight": 19
+    },
+    {
+        "id": "mewtwo_pokemoneerroorr",
+        "otherNightReminder": "Each night*, choose a player: they get fainted. If a wild Pok\u00e9mon was chosen, another Pok\u00e9mon will die. [+1 Wild]",
+        "reminders": [
+            "Wild Die+1"
+        ],
+        "setup": true,
+        "name": "Mewtwo",
+        "team": "demon",
+        "ability": "Each night*, choose a player: they get fainted. If a wild Pok\u00e9mon was chosen, another Pok\u00e9mon will die. [+1 Wild]",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Mewtwo.png?raw=true",
+        "otherNight": 20
+    },
+    {
+        "id": "articuno_pokemoneerroorr",
+        "otherNightReminder": "Each night* choose a Pok\u00e9mon, they get fainted. Or choose 2 Pok\u00e9mon. They are frozen till dusk. When frozen Pok\u00e9mon leave their seats, they faint at dusk and their abilities don\u2019t work.",
+        "reminders": [
+            "Frozen",
+            "Frozen"
+        ],
+        "name": "Articuno",
+        "team": "demon",
+        "ability": "Each night* choose a Pok\u00e9mon, they get fainted. Or choose 2 Pok\u00e9mon. They are frozen-poison till dusk. When frozen Pok\u00e9mon leave their seats, they faint at dusk.",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Articuno.png?raw=true",
+        "otherNight": 21
+    },
+    {
+        "id": "zapdos_pokemoneerroorr",
+        "otherNightReminder": "Each night*, choose a Pokemon, they get fainted.  If the player you choose is your alive good neighbor, their other alive good neighbour also dies.",
+        "reminders": [
+            "Neighbor chosen"
+        ],
+        "name": "Zapdos",
+        "team": "demon",
+        "ability": "Each night*, choose a Pokemon, they get fainted.  If the player you choose is your alive good neighbor, their other alive good neighbour also dies.",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Zapdos.png?raw=true",
+        "otherNight": 22
+    },
+    {
+        "id": "moltres_pokemoneerroorr",
+        "otherNightReminder": "Each night*, choose a Pok\u00e9mon, they get fainted. The first 2 Pok\u00e9mon you chooses votes count as 0 for the rest of the game. [+1 Wild]",
+        "reminders": [
+            "Vote 0",
+            "Vote 0"
+        ],
+        "setup": true,
+        "name": "Moltres",
+        "team": "demon",
+        "ability": "Each night*, choose a Pok\u00e9mon, they get fainted. The first 2 Pok\u00e9mon you chooses votes count as 0 for the rest of the game. [+1 Wild]",
+        "image": "https://github.com/kfwong/botc/blob/main/pokemon/Moltress.png?raw=true",
+        "otherNight": 23
+    }
+]
